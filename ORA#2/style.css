@@ -1,0 +1,211 @@
+/*
+    Sidebar
+*/
+
+* {
+    margin: 0;
+}
+
+.leftMain {
+    font: 14px "Segoe UI", "Helvetica Neue", "Droid Sans", Arial, Tahoma, Geneva, Sans-serif;
+    padding: 10px;
+    font-size: 13;
+    width: 285px;
+}
+
+.contentLeft {
+    background: #f2f1eb;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+.contentLeft h3 {
+    font-weight: bold;
+    text-align: center;
+    color: #8c1515;
+    margin-top: 5px !important;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+
+.contentLeft ul {
+    padding: 0;
+}
+
+.contentLeft ul li {
+    display: block;
+    padding: 0px 5px 7px 10px;
+    border-bottom: 1px solid #ccc;
+    line-height: 2;
+    font-size: 1em !important;
+}
+
+a {
+    color: #337ab7;
+    background-color: transparent;
+    text-decoration: none !important;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #9C1010;
+    border-radius: 10px;
+}
+
+.smallImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+
+.dropdown {
+    position: relative;
+}
+
+.sub-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .sub-dropdown {
+    display: block;
+}
+
+.sub-dropdown li {
+    padding: 5px;
+}
+
+.sub-dropdown li a {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    padding: 5;
+    display: block;
+}
+
+a:hover {
+    color: #9e100e;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    max-width: 1920px !important;
+}
+
+/*----------------------------------------------------------------*/
+.MainContentTitle {
+    padding: 5px;
+    width: 100%;
+}
+
+.MainContentTitle H3 {
+    font-weight: bold;
+    text-align: center;
+    color: #8c1515;
+    margin-top: 5px !important;
+    text-transform: uppercase;
+}
+
+.MainContent {
+    padding: 5px;
+}
+
+.Title {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: bold;
+    color: #8c1515;
+    vertical-align: middle;
+    line-height: 2em;
+}
+
+.normalText {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.row hr {
+    line-height: 4px;
+    border: 3px solid #FF9900;
+    display: block;
+    width: 80%;
+}
+
+.center {
+    text-align: center;
+}
+
+.center a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.text-bold-primary {
+    color: #9C1010;
+    font-weight: bold;
+}
+
+.bg-CTT {
+    background-color: #9C1010;
+    color: #FFFFFF;
+}
+
+/*----------------yêu cầu-----------------------------*/
+.yc1 {
+    font-family: 'Times New Roman', Times, serif !important;
+    color: red !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    font-size: 14px !important;
+}
+
+.MainContent .row strong {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.MainContent .row span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.yc4 {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.basic-button {
+    display: flex;
+    justify-content: center;
+    /* căn giữa theo chiều ngang */
+    align-items: center;
+    /* căn giữa theo chiều dọc */
+}
+
+.button {
+    width: 70px;
+    margin: 0 20px;
+}
